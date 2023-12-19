@@ -7,493 +7,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
 body
 {
-    background: whitesmoke;
+    background-color: whitesmoke;
 }
- 
-.container-fluid
-{
-    position: relative;
-    top: -10px;
-    height: 55px;
-    background:lightgrey;
-    box-shadow: 2px 2px 12px black;
-    border-radius: 5PX;
-
-}
-.navbar-nav
+#sanda
 {
     position: absolute;
-   font-weight: bold;
-   left: 680px;
-   gap: 90px;
-   font-size: 20px;
-   color: black;
+    width: 350px;
+    height: 400px;
+    top: 120px;
+    left: 150px;
 }
-.navbar-brand
-{
-    position: relative;
-    left: 58px;
-    top: 2px;
-   font-size: 20px;
-    font-family: "Metamorphou";
-    font-weight: bold;
-
-}
-.sanda
-{
-    position: absolute;
-    width: 45px;
-    height: 50px;
-    top: 1px;
-    left: 32px;
-}
-.Chris
-{
-    position:absolute;
-    color: red;
-    top: 15px;
-    left:85px;
-    font-size: 27px;
-    font-family: 'Rubik Doodle Shadow', cursive;
-    z-index: 5;
-}
-#moon
+ .sanda
 {
     position: absolute;
     width: 60px;
-    top: 12px;
-    height: 30px;
-    left: 1280px;
-}
-.logo
-{
-    display: none;
-}
-
-
-#tree
-{
-    position: absolute;
-    width: 880px;
-    height: 580px;
-    top: 5px;
-    left: -90px;
-}
-#Christmas
-{
-    position: absolute;
-    top: 230px;
-    left: 540px;
-    font-size: 55px;
-    font-family:Century Schoolbook;
-    width: 640px;
-    font-weight: bold;
-    color: black;
-}
-span
-{
-    position: absolute;
-    top: 70px;
-    left: 1px;
-    font-size: 55px;
-    font-family:Century Schoolbook;
-    width: 640px;
-    font-weight: bold;
-    color: black;
-}
-p
-{
-    position: absolute;
-    top: 370px;
-    left: 545px;
-    font-size: 19px;
-    font-family:Goudy Old Style;
-    width: 640px;
-    font-weight: bold;
-    color: rgb(79, 56, 56);
-}
-pre
-{
-    font-family:Century Schoolbook;
-    font-weight: bold;
-}
-#get
-{
-
-    position: absolute;
-    top: 450px;
-    left: 540px;
-    font-size: 15px;
-    width: 150px;
-    font-family: Lucida Bright;
-    height: 50px;
-    color: white;
-    border-radius: 20px;
-    border-color: tomato;
-    background-color: #E74842;
-}
-#start
-{
- position: absolute;
- top: 620px;
- left: 505px;
- font-size: 29px;
- font-weight: bold;
- color: red;
- font-family: 'Rubik Doodle Shadow', cursive;
-}
-#give1
-{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 590px;
-    left:50px
-}
-#surprise
-{
-    position: absolute;
-    top: 900px;
-    left:135px;
-    color: black;
-    font-weight: bold;
-      font-family:Georgia;
-    font-size: 20px;
-
-}
-#give2
-{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top:  390px;
-    left:420px
-}
-#Ornaments
-{
-    position: absolute;
-    top: 900px;
-    left:520px;
-    color: black;
-    font-weight: bold;
-      font-family:Georgia;
-    font-size: 20px;
-
-}
-#give3
-{
-    position: relative;
-    width: 200px;
-    height: 190px;
-    top:  200px;
-    left:760px
-}
-#love
-{
-    position: absolute;
-    top: 900px;
-    left:875px;
-    color: black;
-    font-weight: bold;
-      font-family:Georgia;
-    font-size: 20px;
-}
-#merry
-{
-    display: none;
-    position: absolute;
-    top: 965px;
-    left:1px;
-    width: 1325px;
-    height: 200px;
-
-}
-#lot
-{
-    position: absolute;
-    top: 995px;
-    left:515px;
-    color: red;
- font-family: 'Rubik Doodle Shadow', cursive;
-    font-weight: bold;
-    font-size: 29px;
-   
-}
-#santa
-{
-    position: relative;
-    width: 200px;
-    height: 190px;
-    top:  -15px;
-    left:1080px
-}
-#Feeling
-{
-    position: absolute;
-    top: 900px;
-    left:1195px;
-    color: black;
-    font-weight: bold;
-      font-family:Georgia;
-    font-size: 20px;
-}
-#cheerful
-{
-    position: relative;
-    width: 300px;
-    height: 280px;
-    top:  115px;
-    left:70px
-    
-}
-#para
-{
-    position: absolute;
-    top: 1080px;
-    left: 445px;
-    font-size: 23px;
-    font-family:Goudy Old Style;
-    width: 840px;
-    letter-spacing:2px ;
-    font-weight: bold;
-    color: rgb(79, 56, 56);
-}
-#send
-{
-    position: absolute;
-    top: 1310px;
-    left: 640px;
-    font-size: 15px;
-    width: 230px;
-    font-family: Lucida Bright;
-    height: 50px;
-    color: white;
-    border-radius: 20px;
-    border-color: tomato;
-    background-color: #E74842;
-}
-#Gift
-{
-    
-    position: absolute;
-    top: 1405px;
-    left:535px;
-    color: red;
-    font-family: 'Rubik Doodle Shadow', cursive;
-    font-weight: bold;
-    font-size: 29px;
- 
-}
-.box
-{
-    position: relative;
-    width: 220px;
-    height: 250px;
-    top: 50px;
-    left: 310px;
-    border-color: rgb(158, 147, 147);
-    border-radius: 10px;
-    background-color:lightgrey;
-    
-}
-#gifts
-{
-   position: absolute;
-   width: 150px;
-   height: 150px;
-   top: 20px;
-   left: 40px;
-   z-index: 1;
-transition: 1s ease-in;
-}
-#gifts:hover
-{
-    transition: 1s ease-in;
-    transform: translateY(-10px);
-}
-
-#heart
-{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: -5px;
-    left: 170px;
-    z-index: 1;
-}
-#rate
-{
-    position: absolute;
-    color: black;
-    font-family: Bookman Old Style;
-    font-size: 20px;
-    font-weight: bold;
-    top: 180px;
-    left: 30px;
-}
-#ginger
-{
-    position: absolute;
-    left: 25px;
-    top: 210px;
-}
-
-.one
-{
-    position: absolute;
-    top: 1380px;
-    left: 370px;
-}
-.two
-{
-    position: absolute;
-    top: 1700px;
-    left: 0px;
-
-}
-.three
-{
-    position: absolute;
-    top: 1700px;
-    left: 370px;
-}
-.four
-{
-    position: absolute;
-    top: 2150px;
-    left: 5px;
-}
-.five
-{
-    position: absolute;
-    top: 2150px;
-    left: 372px;
-}
-.six
-{
-    position: absolute;
-    top: 2450px;
-    left: 172px;
-}
-#new
-{
-   position: absolute;
-   top: 2105px;
-   left:475px;
-   color: red;
-   font-family: 'Rubik Doodle Shadow', cursive;
-   font-weight: bold;
-   font-size: 29px;
-}
-
-@media screen and (max-width:720px)
-{
-    .navbar-toggler
-    {
-        position: absolute;
-        left: 275px;
-        top: -25px;
-        
-    }   
- .navbar-nav
-{
-    position: absolute;
-   font-weight: bold;
-   left: 0px;
-   width: 350px;
-   gap: 0px;
-   top: 57px;
-   z-index: 10;
-   background:whitesmoke;
-   box-shadow: 1px 1px 10px black;
-} 
-.container-fluid
-{
-    position: relative;
-    background: white
-    
-}
-.nav-link
-{
-    position: relative;
-    left: 150px;
-  
-} 
-.logo
-{
-    position: absolute;
-    width: 100px;
-    display: block;
-    top: 8px;
-    height: 80px;
-    transform: rotate(-40deg);
-}
-
-.sanda
-{
-    position: absolute;
-    width: 50px;
     height: 40px;
     top: 8px;
-    left: -5px;
+    left: 950px;
 }
 #moon
 {
     position: absolute;
     width: 60px;
-    height: 35px;
-    left: 250px;
-}
-#tree
+    height: 40px;
+    left: 1000px;
+} 
+.navbar-brand
 {
-    position: absolute;
-    width: 630px;
-    height:450px;
-    top: -10px;
-    left: -140px;
-    z-index: -1;
-    filter:drop-shadow(2px 2px 3px black);
-       animation: 1s tree linear;
-}
-@keyframes tree
-{    
-     0%
-        { 
-            opacity:1px;
-              transform: translateY(-40px);   
-        }
-       
-    
-}
-#Christmas
-{
-    position: absolute;
-    top: 430px;
-    left: 35px;
-    font-size: 25px;
-    font-family: 'Trade Winds', cursive;
-    width: 620px;
-    color: rgba(0, 0, 0, 0.884);
-    letter-spacing: 0.5px;
+ font-family: 'Trade Winds', cursive;
+
 }
 span
 {
     position: absolute;
-    top: 35px;
-    left: 25px;
-    font-size: 25px;
+    top: 200px;
+    left: 530px;
+    font-size:60px;
+    text-size-adjust:130px ;
     font-family: 'Trade Winds', cursive;
-    width: 640px;
     color: rgba(0, 0, 0, 0.884);
 }
+.span
+{
+    position: absolute;
+    top: 280px;
+    left: 530px;
+    font-size:60px;
+    text-size-adjust:130px ;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+}
+
 p
 {
     position: absolute;
-    top: 505px;
-    left: 35px;
-    font-size: 13px;
+    top: 365px;
+    left: 530px;
+    font-size: 19px;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Montserrat', sans-serif;
     color: black
@@ -502,23 +75,24 @@ p
 {
    
     position: absolute;
-    top: 560px;
-    left: 90px;
+    top: 440px;
+    left: 530px;
     font-size: 15px;
     width: 170px;
-    font-family: Lucida Bright;
+   font-family: 'Montserrat', sans-serif;
     height: 50px;
     border-radius: 20px;
     color: white;
     border-color: tomato;
     background-color: #E74842;
 }
+
 #start
 {
  position: absolute;
- top: 670px;
- left: 35px;
- font-size: 20px;
+ top: 620px;
+ left: 455px;
+ font-size: 35px;
  font-family: 'Trade Winds', cursive;
  color: rgba(0, 0, 0, 0.884);
  
@@ -526,10 +100,10 @@ p
 #give1
 {
     position: absolute;
-    width: 140px;
-    height: 120px;
+    width: 180px;
+    height: 130px;
     top:730px;
-    left:-6px;
+    left:96px;
       animation: 2s give linear infinite;
 }
 @keyframes give
@@ -559,8 +133,8 @@ p
 #surprise
 {
     position: absolute;
-    top: 850px;
-    left:15px;
+    top: 860px;
+    left:135px;
     color: black;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -570,17 +144,17 @@ p
 #give2
 {
     position: relative;
-    width: 160px;
-    height: 130px;
-    top:  575px;
-    left:120px;
+    width: 180px;
+    height: 140px;
+    top:670px;
+    left:396px;
       animation: 2s give linear infinite;
 }
 #Ornaments
 {
     position: absolute;
-    top: 850px;
-    left:220px;
+    top: 860px;
+    left:440px;
     color: black;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -591,15 +165,323 @@ p
     position: relative;
     width: 150px;
     height: 130px;
-    top:600px;
-    left:-65px;
+    top:675px;
+    left:520px;
       animation: 2s give linear infinite;
 }
 #love
 {
     position: absolute;
-    top: 1005px;
-    left:23px;
+    top: 860px;
+    left:745px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#count
+{
+
+    position: absolute;
+    top: 1355px;
+    left:130px;
+    width: 525px;
+    height: 500px;
+    border-radius:10px;
+
+}
+.give4
+{
+      position: relative;
+    width: 160px;
+    height: 120px;
+    top:  680px;
+    left:720px;
+      animation: 2s give linear infinite;
+}
+#Feeling
+{
+    
+    position: absolute;
+    left:1100px;
+    top: 860px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.lot
+{
+    
+    position: absolute;
+    top: 965px;
+    left:440px;
+   font-size: 35px;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+    
+}
+
+#cheerful
+{
+    position: absolute;
+    width: 300px;
+    height: 280px;
+    top:  1005px;
+    left:176px;
+    
+}
+
+#para
+{
+    position: absolute;
+    top:1070px;
+    left: 560px;
+    width: 580px;
+    font-size: 18px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    z-index: -1;
+}
+#send
+{
+    position: absolute;
+    top: 1280px;
+    left: 700px;
+    font-size: 15px;
+    width: 230px;
+  font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    color: white;
+    border-radius: 50px;
+    border-color: tomato;
+    background-color: #E74842;
+    z-index: -1;
+}
+#Gift
+{
+    
+    position: absolute;
+   top: 1900px;
+    left:560px;
+   font-size: 35px;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+    z-index: -1;
+    
+}
+#time
+{
+     position: absolute;
+   top: 1400px;
+    left:500px;
+   font-size: 35px;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+    z-index: -1;
+}
+
+#demo
+{
+    position:absolute;
+    top:1710px;
+    left:630px;
+    z-index:4;
+    font-size:45px;
+     font-family: 'Trade Winds', cursive;
+      color: rgba(0, 0, 0, 0.884);
+      background:red;
+      border-radius:10px;
+      box-shadow: 5px 5px 12px black;
+}
+.h5
+{
+    position:relative;
+     font-family: 'Trade Winds', cursive
+     font-size:50px;
+}
+@media screen and (max-width:768px)
+{
+    #sanda
+    {
+        position: absolute;
+        width: 318px;
+        height: 400px;
+        left:20px;
+        top:20px;
+        z-index:-5px;
+          animation: 0.5s tree linear;
+}
+@keyframes tree
+{    
+     0%
+        {
+            opacity:0.5%;
+              transform: translateY(-20px);   
+        }
+    
+}
+
+.box
+    {
+        
+        position:relative;
+    }
+
+span
+{
+    position: absolute;
+    top: 420px;
+    left: 15px;
+    font-size:30px;
+    text-size-adjust:130px ;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+}
+.span
+{
+    position: absolute;
+     top: 460px;
+    left: 50px;
+    font-size:30px;
+    text-size-adjust:130px ;
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+}  
+p
+{
+    position: absolute;
+    top: 505px;
+    left: 40px;
+    font-size: 13px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: black
+}
+
+#get
+{
+   
+    position: absolute;
+    top: 560px;
+    left: 100px;
+    font-size: 15px;
+    width: 170px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    border-color: tomato;
+    background-color: #E74842;
+}
+ .sanda
+{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 8px;
+    left: -5px;
+}
+#moon
+{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    left: 210px;
+}  
+.navbar-brand
+{
+ font-family: 'Trade Winds', cursive;
+    margin-left:-134px;
+}
+#start
+{
+ position: absolute;
+ top: 650px;
+ left: 38px;
+ font-size: 20px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+ 
+}
+#give1
+{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top:700px;
+    left:16px;
+      animation: 2s give linear infinite;
+}
+@keyframes give
+{
+    0%
+    {
+       
+        transform: translateY(15px);
+    }
+   10%
+   {
+         transform: translateY(-10px);
+   }
+   20%
+   {
+      transform: translateY(-5px); 
+   }
+   90%
+   {
+          transform: translateY(-1px); 
+   }
+    100%
+    {
+        transform: translateY(10px);
+    }
+}
+#surprise
+{
+    position: absolute;
+    top: 799px;
+    left:35px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+#give2
+{
+    position: relative;
+    width: 120px;
+    height: 130px;
+    top:685px;
+    left:200px;
+      animation: 2s give linear infinite;
+}
+#Ornaments
+{
+    position: absolute;
+    left:220px;
+    top:799px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#give3
+{
+    position: relative;
+    width: 120px;
+    height: 130px;
+    top:835px;
+    left:-110px;
+      animation: 2s give linear infinite;
+}
+#love
+{
+    position: absolute;
+    top: 960px;
+    left:40px;
     color: black;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -616,36 +498,32 @@ p
     height: 180px;
 
 }
-#santa
+.give4
 {
+      position: relative;
     width: 160px;
     height: 120px;
-    top:  480px;
-    left:120px;
+    top:  720px;
+    left:185px;
       animation: 2s give linear infinite;
 }
 #Feeling
 {
     
     position: absolute;
-    left:230px;
-    top: 1010px;
+    left:240px;
+    top: 965px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
-#cheerful
-{
-    width: 40px;
-    display: none;
-}
-#lot
+.lot
 {
     
     position: absolute;
-    top: 1085px;
-    left:40px;
-    font-size: 18px;
+    top: 1025px;
+    left:20px;
+  font-size: 20px;
     font-family: 'Trade Winds', cursive;
     color: rgba(0, 0, 0, 0.884);
     
@@ -653,9 +531,9 @@ p
 #para
 {
     position: absolute;
-    top: 1120px;
+    top:1060px;
     left: 20px;
-    width: 320px;
+    width: 330px;
     font-size: 13px;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Montserrat', sans-serif;
@@ -665,11 +543,11 @@ p
 #send
 {
     position: absolute;
-    top: 1380px;
+    top: 1250px;
     left: 60px;
     font-size: 15px;
     width: 230px;
-    font-family: Lucida Bright;
+    font-family: 'Montserrat', sans-serif;
     height: 50px;
     color: white;
     border-radius: 50px;
@@ -677,91 +555,61 @@ p
     background-color: #E74842;
     z-index: -1;
 }
+#cheerful
+{
+    position: absolute;
+    display:none;
+    
+}
+
 #Gift
 {
     
     position: absolute;
-    top: 1510px;
-    left:121px;
-    color: black;
-    font-size: 18px;
+   top: 1750px;
+    left:110px;
+font-size: 20px;
     font-family: 'Trade Winds', cursive;
     color: rgba(0, 0, 0, 0.884);
     z-index: -1;
     
 }
-.box
+#time
 {
-    position: absolute;
-    width: 220px;
-    height: 250px;
-    top: 1560px;
-    z-index: 10;
-    left: 65px;
-    border-color: rgb(158, 147, 147);
-    border-radius: 10px;
-    background-color:white;
-    box-shadow: 2px 2px 10px black ;
-    
-}
-
-.one
-{
-    position: absolute;
-    top: 280px;
-    left: 0px;
-}
-.two
-{
-    position: absolute;
-    top: 560px;
-    left: 0px;
-
-}
-.three
-{
-    position: absolute;
-    top: 850px;
-    left: 0px;
-}
-.four
-{
-    position: absolute;
-    top: 1200px;
-    left: 0px;
-}
-.five
-{
-    position: absolute;
-    top: 1490px;
-    left: 0px;
-}
-.six
-{
-    position: absolute;
-    top: 1780px;
-    left: 0px;
-}
-#new
-{
-   position: absolute;
-   top: 2675px;
-   left:80px;
-   z-index: 10;
+     position: absolute;
+   top: 1350px;
+    left:70px;
    font-size: 20px;
-   font-family: 'Trade Winds', cursive;
-   color: rgba(0, 0, 0, 0.884);
+    font-family: 'Trade Winds', cursive;
+    color: rgba(0, 0, 0, 0.884);
+    z-index: -1;
 }
 
-.Chris
+#count
 {
+
     position: absolute;
-    color: red;
-    top: 20px;
-    left:45px;
-    font-size: 18px;
-    font-family: 'Rubik Doodle Shadow', cursive;
-    z-index: 5;
-}
+    top: 1315px;
+    left:10px;
+    width: 325px;
+    height: 350px;
+    border-radius:10px;
 
 }
+#demo
+{
+    position:absolute;
+    top:1650px;
+    left:68px;
+    z-index:4;
+    font-size:30px;
+     font-family: 'Trade Winds', cursive;
+      color: rgba(0, 0, 0, 0.884);
+       background: linear-gradient(to right,rgb(237, 168, 179) ,rgb(161, 254, 161));
+      border-radius:10px;
+      box-shadow: 5px 5px 12px black;
+}
+}
+    
+    
+    
