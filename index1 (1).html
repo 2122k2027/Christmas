@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Shop</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <link rel="icon" href="https://imagetolink.com/ib/7vzGWNrYx6.png">
+    <link rel="stylesheet" href="cake.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Metamorphous&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@media  screen and (min-width:720px) and (max-width:1281px)
+{
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background:whitesmoke;
+}
+::selection
+{
+    background: violet;
+    color: aqua;
+}
+.box
+{
+    position:relative;
+    width:1435px;
+    height:500px;
+}
+#slide
+{
+    position:relative;
+    width:1525px;
+    height:580px;
+    left:-10px;
+    
+    
+    }
+#pre
+{ 
+     position: relative;
+    margin-top: 550px;
+    left:70px;
+}
+#next
+{
+    position: relative;
+    left: 888px;
+    top: 259px;
+    z-index:10;
+}
+
+#about
+{
+    position:absolute;
+    font-size: 60px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+ left:560px;
+ z-index:10;
+ top:660px;
+}
+#christmas
+{
+  position:relative;
+  width:200px;
+  height:250px;
+  top:340px;
+   left:160px;
+    background:white;
+    box-shadow:2px 2px 10px black;
+    border-radius:10px;
+  
+}
+#gift
+{
+    position:absolute;
+    width:150px;
+    height:140px;
+    left:20px;
+    top:20px;
+    z-index:10;
+    transition:1s ease-in;
+}
+#gift:hover
+{
+    transition:1s ease-in;
+    transform:translateY(-20px)
+}
+#heart
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:155px;
+    top:-5px;
+    z-index:10;
+}
+#rate
+{
+  position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:180px;
+    z-index:10;
+        font-size: 18px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+}
+#name
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:205px;
+    width:200px;
+    z-index:10;
+        font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+ color: rgba(0, 0, 0, 0.884);
+}
+#christmas-1
+{
+  position:absolute;
+  top:503px;
+  left:330px;
+}
+#christmas-2
+{
+ position:absolute;
+  top:503px;
+  left:660px;
+}
+#christmas-3
+{
+position:absolute;
+  top:503px;
+  left:990px;
+}
+#banner
+{
+  position:absolute;
+  width:1440px;
+  height:330px;
+  top:1220px;
+  left:-1px;
+
+}
+#demo
+{
+     position:absolute;
+     top:1470px;
+     left:210px;
+ font-family: 'Montserrat', sans-serif;
+ color: rgba(0, 0, 0, 0.884);
+     font-size:50px;
+     z-index:10;
+     background:whitesmoke;
+     border-radius:10px;
+     box-shadow:2px 2px 15px black;
+}
+}
+
+                 /* Mobile view */
+
+@media screen and (max-width:720px)
+{
+    body
+    {
+        background: white;
+    }
+
+#slide
+{
+    position:relative;
+    width: 362px;
+    height: 200px;
+    top:-1px;
+    left:-1px;
+    border-radius: 5px;
+    z-index: -1;
+}
+#pre
+{
+    display:none;
+    margin-top: 550px;
+    margin-left: -61px;
+}
+#next
+{
+    display:none;
+    position: relative;
+    left: 268px;
+    top: 275px;
+}
+#about
+{
+    position:absolute;
+    font-size: 20px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+ left:115px;
+ top:250px;
+}
+#christmas
+{
+  position:relative;
+  width:200px;
+  height:240px;
+  top:100px;
+   left:80px;
+    background:white;
+    box-shadow:2px 2px 10px black;
+    border-radius:10px;
+  
+  }
+ #gift
+{
+    position:absolute;
+    width:140px;
+    height:140px;
+    left:30px;
+    top:10px;
+    z-index:10;
+}
+#heart
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:155px;
+    top:-10px;
+    z-index:10;
+} 
+#rate
+{
+  position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:170px;
+    z-index:10;
+        font-size: 18px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+
+}
+#name
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:195px;
+    width:200px;
+    z-index:10;
+        font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+ color: rgba(0, 0, 0, 0.884);
+}
+
+#christmas-1
+{
+  position:absolute;
+  top:523px;
+  left:0px;
+}
+#christmas-2
+{
+ position:absolute;
+  top:823px;
+  left:0px;
+}
+#christmas-3
+{
+position:absolute;
+  top:1120px;
+  left:0px;
+}
+#banner
+{
+  position:absolute;
+  width:340px;
+  height:130px;
+  top:1500px;
+  left:10px;
+}
+#demo
+{
+     position:absolute;
+     top:1590px;
+     left:60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.884);
+     font-size:20px;
+     background:whitesmoke;
+     border-radius:5px;
+     box-shadow:2px 2px 15px black;
+     z-index:2;
+}
+@media screen  and (min-width:412px)
+{
+
+
+#slide
+{
+    position:relative;
+    width: 432px;
+    height: 220px;
+    left:-10px;
+    top:-1px;
+    border-radius: 5px;
+    z-index: -1;
+}
+#pre
+{
+    display:none;
+    margin-top: 550px;
+    margin-left: -61px;
+}
+#next
+{
+    display:none;
+    position: relative;
+    left: 268px;
+    top: 275px;
+}
+#about
+{
+    position:absolute;
+    font-size: 20px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+ left:145px;
+ top:280px;
+}
+#christmas
+{
+  position:relative;
+  width:200px;
+  height:240px;
+  top:100px;
+   left:110px;
+    background:white;
+    box-shadow:2px 2px 10px black;
+    border-radius:10px;
+  
+  }
+ #gift
+{
+    position:absolute;
+    width:140px;
+    height:140px;
+    left:30px;
+    top:10px;
+    z-index:10;
+}
+#heart
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:155px;
+    top:-10px;
+    z-index:10;
+} 
+#rate
+{
+  position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:170px;
+    z-index:10;
+        font-size: 18px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+
+}
+#name
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:195px;
+    width:200px;
+    z-index:10;
+        font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+ color: rgba(0, 0, 0, 0.884);
+}
+
+#christmas-1
+{
+  position:absolute;
+  top:523px;
+  left:0px;
+}
+#christmas-2
+{
+ position:absolute;
+  top:823px;
+  left:0px;
+}
+#christmas-3
+{
+position:absolute;
+  top:1120px;
+  left:0px;
+}
+#banner
+{
+  position:absolute;
+  width:410px;
+  height:130px;
+  top:1500px;
+  left:2px;
+}
+#demo
+{
+     position:absolute;
+     top:1590px;
+     left:60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.884);
+     font-size:20px;
+     background:whitesmoke;
+     border-radius:5px;
+     box-shadow:2px 2px 15px black;
+     z-index:2;
+}
+}
+@media screen  and (min-width:428px)
+{
+
+
+#slide
+{
+    position:relative;
+    width: 438px;
+    height: 220px;
+    left:-10px;
+    top:-1px;
+    border-radius: 5px;
+    z-index: -1;
+}
+#pre
+{
+    display:none;
+    margin-top: 550px;
+    margin-left: -61px;
+}
+#next
+{
+    display:none;
+    position: relative;
+    left: 268px;
+    top: 275px;
+}
+#about
+{
+    position:absolute;
+    font-size: 20px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+ left:145px;
+ top:280px;
+}
+#christmas
+{
+  position:relative;
+  width:200px;
+  height:240px;
+  top:100px;
+   left:110px;
+    background:white;
+    box-shadow:2px 2px 10px black;
+    border-radius:10px;
+  
+  }
+ #gift
+{
+    position:absolute;
+    width:140px;
+    height:140px;
+    left:30px;
+    top:10px;
+    z-index:10;
+}
+#heart
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:155px;
+    top:-10px;
+    z-index:10;
+} 
+#rate
+{
+  position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:170px;
+    z-index:10;
+        font-size: 18px;
+ font-family: 'Trade Winds', cursive;
+ color: rgba(0, 0, 0, 0.884);
+
+}
+#name
+{
+ position:absolute;
+    width:50px;
+    height:60px;
+    left:15px;
+    top:195px;
+    width:200px;
+    z-index:10;
+        font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+ color: rgba(0, 0, 0, 0.884);
+}
+
+#christmas-1
+{
+  position:absolute;
+  top:523px;
+  left:0px;
+}
+#christmas-2
+{
+ position:absolute;
+  top:823px;
+  left:0px;
+}
+#christmas-3
+{
+position:absolute;
+  top:1120px;
+  left:0px;
+}
+#banner
+{
+  position:absolute;
+  width:430px;
+  height:130px;
+  top:1500px;
+  left:-1px;
+}
+#demo
+{
+     position:absolute;
+     top:1590px;
+     left:60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.884);
+     font-size:20px;
+     background:whitesmoke;
+     border-radius:5px;
+     box-shadow:2px 2px 15px black;
+     z-index:2;
+}
+}
+    </style>
+</head>
+<body>
+
+<div class="box">
+   
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="1000"> 
+            <img src="https://imagetolink.com/ib/UOeHnHe21g.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="1000">
+            <img src="https://imagetolink.com/ib/qhhqLFPxKa.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="000">
+            <img src="https://imagetolink.com/ib/rrgBqX8bZs.jpeg" class="d-block w-100px" alt="..." id="slide"></div>
+          <div class="carousel-item active"  data-bs-interval="000">
+            <img src="https://imagetolink.com/ib/YTTN96fddN.jpg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+          <div class="carousel-item"  data-bs-interval="000">
+            <img src="https://imagetolink.com/ib/HhwOJ7kWA4.jpeg" class="d-block w-100px" alt="..." id="slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" id="pre"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" id="next"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+        <h2 id="about">Share A Gift</h2>
+        <div id="christmas">
+          <img src="https://i.ibb.co/rsSqgLH/gift1.png" alt="" id="gift">
+          <img src="https://i.ibb.co/LvmcbTk/heart1.png" alt="" id="heart">
+           <h1 id="rate">$15</h1>
+            <p id="name">Gingerbread</p>
+        </div>
+
+      <div id="christmas-1">
+
+        <div id="christmas">
+          <img src="https://i.ibb.co/XYwkcbj/gift2.png" alt="" id="gift">
+          <img src="https://i.ibb.co/LvmcbTk/heart1.png" alt="" id="heart">
+           <h1 id="rate">$22</h1>
+            <p id="name">Santa Clous Hot</p>
+        </div>
+      </div>  
+       <div id="christmas-2">
+           <div id="christmas">
+          <img src="https://i.ibb.co/4YMPgHz/gift3.png" alt="" id="gift">
+          <img src="https://i.ibb.co/LvmcbTk/heart1.png" alt="" id="heart">
+           <h1 id="rate">$48</h1>
+            <p id="name">Christmas Treet</p>
+        </div> 
+       </div>
+
+         <div id="christmas-3">
+
+          <div id="christmas">
+          <img src="https://i.ibb.co/TwHVqxc/gift4.png" alt="" id="gift">
+          <img src="https://i.ibb.co/LvmcbTk/heart1.png" alt="" id="heart">
+           <h1 id="rate">$35</h1>
+            <p id="name">Snowman</p>
+        </div> 
+
+         </div>
+            <div id="christmas-4">
+               <p id="demo"></p>
+                <img src="https://imagetolink.com/ib/BwmAsh6Hk4.jpg" id="banner">
+            </div>
+ 
+ <script>
+
+var countDownDate = new Date("Jan 1, 2024 15:37:25").getTime();
+
+
+var x = setInterval(function() {
+
+ 
+  var now = new Date().getTime();
+    
+ 
+  var distance = countDownDate - now;
+    
+ 
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+   
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+
+</body>
+</html>
